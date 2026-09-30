@@ -1,0 +1,1712 @@
+{
+  "source": "https://download.geonames.org/export/zip/US.zip",
+  "attribution": "GeoNames, https://www.geonames.org/",
+  "license": "CC BY 4.0",
+  "retrieved_on": "2026-09-30",
+  "state": "NY",
+  "counties": [
+    "Nassau",
+    "Suffolk",
+    "Queens"
+  ],
+  "zip_codes": {
+    "00501": {
+      "county": "Suffolk",
+      "city": "Holtsville",
+      "latitude": 40.8154,
+      "longitude": -73.0451
+    },
+    "00544": {
+      "county": "Suffolk",
+      "city": "Holtsville",
+      "latitude": 40.8154,
+      "longitude": -73.0451
+    },
+    "06390": {
+      "county": "Suffolk",
+      "city": "Fishers Island",
+      "latitude": 41.2639,
+      "longitude": -72.0178
+    },
+    "11001": {
+      "county": "Nassau",
+      "city": "Floral Park",
+      "latitude": 40.7236,
+      "longitude": -73.7058
+    },
+    "11002": {
+      "county": "Nassau",
+      "city": "Floral Park",
+      "latitude": 40.7237,
+      "longitude": -73.7049
+    },
+    "11003": {
+      "county": "Nassau",
+      "city": "Elmont",
+      "latitude": 40.6976,
+      "longitude": -73.7049
+    },
+    "11004": {
+      "county": "Queens",
+      "city": "Glen Oaks",
+      "latitude": 40.7481,
+      "longitude": -73.7114
+    },
+    "11005": {
+      "county": "Queens",
+      "city": "Floral Park",
+      "latitude": 40.7571,
+      "longitude": -73.7182
+    },
+    "11010": {
+      "county": "Nassau",
+      "city": "Franklin Square",
+      "latitude": 40.701,
+      "longitude": -73.6758
+    },
+    "11020": {
+      "county": "Nassau",
+      "city": "Great Neck",
+      "latitude": 40.7742,
+      "longitude": -73.7189
+    },
+    "11021": {
+      "county": "Nassau",
+      "city": "Great Neck",
+      "latitude": 40.7867,
+      "longitude": -73.727
+    },
+    "11022": {
+      "county": "Nassau",
+      "city": "Great Neck",
+      "latitude": 40.7548,
+      "longitude": -73.6018
+    },
+    "11023": {
+      "county": "Nassau",
+      "city": "Great Neck",
+      "latitude": 40.7993,
+      "longitude": -73.7343
+    },
+    "11024": {
+      "county": "Nassau",
+      "city": "Great Neck",
+      "latitude": 40.8171,
+      "longitude": -73.7416
+    },
+    "11026": {
+      "county": "Nassau",
+      "city": "Great Neck",
+      "latitude": 40.7548,
+      "longitude": -73.6018
+    },
+    "11027": {
+      "county": "Nassau",
+      "city": "Great Neck",
+      "latitude": 40.8007,
+      "longitude": -73.7285
+    },
+    "11030": {
+      "county": "Nassau",
+      "city": "Manhasset",
+      "latitude": 40.7934,
+      "longitude": -73.6888
+    },
+    "11040": {
+      "county": "Nassau",
+      "city": "New Hyde Park",
+      "latitude": 40.7294,
+      "longitude": -73.6828
+    },
+    "11042": {
+      "county": "Nassau",
+      "city": "New Hyde Park",
+      "latitude": 40.7602,
+      "longitude": -73.695
+    },
+    "11050": {
+      "county": "Nassau",
+      "city": "Port Washington",
+      "latitude": 40.835,
+      "longitude": -73.6964
+    },
+    "11051": {
+      "county": "Nassau",
+      "city": "Port Washington",
+      "latitude": 40.7548,
+      "longitude": -73.6018
+    },
+    "11052": {
+      "county": "Nassau",
+      "city": "Port Washington",
+      "latitude": 40.7548,
+      "longitude": -73.6018
+    },
+    "11053": {
+      "county": "Nassau",
+      "city": "Port Washington",
+      "latitude": 40.7548,
+      "longitude": -73.6018
+    },
+    "11054": {
+      "county": "Nassau",
+      "city": "Port Washington",
+      "latitude": 40.7548,
+      "longitude": -73.6018
+    },
+    "11055": {
+      "county": "Nassau",
+      "city": "Port Washington",
+      "latitude": 40.7548,
+      "longitude": -73.6018
+    },
+    "11096": {
+      "county": "Nassau",
+      "city": "Inwood",
+      "latitude": 40.6205,
+      "longitude": -73.7474
+    },
+    "11101": {
+      "county": "Queens",
+      "city": "Long Island City",
+      "latitude": 40.7446,
+      "longitude": -73.9345
+    },
+    "11102": {
+      "county": "Queens",
+      "city": "Astoria",
+      "latitude": 40.7706,
+      "longitude": -73.9265
+    },
+    "11103": {
+      "county": "Queens",
+      "city": "Astoria",
+      "latitude": 40.7627,
+      "longitude": -73.9149
+    },
+    "11104": {
+      "county": "Queens",
+      "city": "Sunnyside",
+      "latitude": 40.7436,
+      "longitude": -73.9216
+    },
+    "11105": {
+      "county": "Queens",
+      "city": "Astoria",
+      "latitude": 40.7763,
+      "longitude": -73.911
+    },
+    "11106": {
+      "county": "Queens",
+      "city": "Astoria",
+      "latitude": 40.7608,
+      "longitude": -73.9295
+    },
+    "11109": {
+      "county": "Queens",
+      "city": "Long Island City",
+      "latitude": 40.7454,
+      "longitude": -73.9575
+    },
+    "11120": {
+      "county": "Queens",
+      "city": "Long Island City",
+      "latitude": 40.7448,
+      "longitude": -73.9487
+    },
+    "11351": {
+      "county": "Queens",
+      "city": "Flushing",
+      "latitude": 40.7817,
+      "longitude": -73.8317
+    },
+    "11352": {
+      "county": "Queens",
+      "city": "Flushing",
+      "latitude": 40.6514,
+      "longitude": -73.8708
+    },
+    "11354": {
+      "county": "Queens",
+      "city": "Flushing",
+      "latitude": 40.7667,
+      "longitude": -73.8241
+    },
+    "11355": {
+      "county": "Queens",
+      "city": "Flushing",
+      "latitude": 40.7536,
+      "longitude": -73.8226
+    },
+    "11356": {
+      "county": "Queens",
+      "city": "College Point",
+      "latitude": 40.7855,
+      "longitude": -73.845
+    },
+    "11357": {
+      "county": "Queens",
+      "city": "Whitestone",
+      "latitude": 40.7851,
+      "longitude": -73.8096
+    },
+    "11358": {
+      "county": "Queens",
+      "city": "Flushing",
+      "latitude": 40.7606,
+      "longitude": -73.7968
+    },
+    "11359": {
+      "county": "Queens",
+      "city": "Bayside",
+      "latitude": 40.7928,
+      "longitude": -73.7767
+    },
+    "11360": {
+      "county": "Queens",
+      "city": "Bayside",
+      "latitude": 40.7807,
+      "longitude": -73.7812
+    },
+    "11361": {
+      "county": "Queens",
+      "city": "Bayside",
+      "latitude": 40.7627,
+      "longitude": -73.7745
+    },
+    "11362": {
+      "county": "Queens",
+      "city": "Little Neck",
+      "latitude": 40.7591,
+      "longitude": -73.7326
+    },
+    "11363": {
+      "county": "Queens",
+      "city": "Little Neck",
+      "latitude": 40.7722,
+      "longitude": -73.7454
+    },
+    "11364": {
+      "county": "Queens",
+      "city": "Oakland Gardens",
+      "latitude": 40.7428,
+      "longitude": -73.7588
+    },
+    "11365": {
+      "county": "Queens",
+      "city": "Fresh Meadows",
+      "latitude": 40.7374,
+      "longitude": -73.7951
+    },
+    "11366": {
+      "county": "Queens",
+      "city": "Fresh Meadows",
+      "latitude": 40.7272,
+      "longitude": -73.7949
+    },
+    "11367": {
+      "county": "Queens",
+      "city": "Flushing",
+      "latitude": 40.728,
+      "longitude": -73.8195
+    },
+    "11368": {
+      "county": "Queens",
+      "city": "Corona",
+      "latitude": 40.7453,
+      "longitude": -73.8611
+    },
+    "11369": {
+      "county": "Queens",
+      "city": "East Elmhurst",
+      "latitude": 40.7613,
+      "longitude": -73.8739
+    },
+    "11370": {
+      "county": "Queens",
+      "city": "East Elmhurst",
+      "latitude": 40.7611,
+      "longitude": -73.8916
+    },
+    "11371": {
+      "county": "Queens",
+      "city": "Flushing",
+      "latitude": 40.7721,
+      "longitude": -73.8735
+    },
+    "11372": {
+      "county": "Queens",
+      "city": "Jackson Heights",
+      "latitude": 40.7513,
+      "longitude": -73.883
+    },
+    "11373": {
+      "county": "Queens",
+      "city": "Elmhurst",
+      "latitude": 40.7351,
+      "longitude": -73.8776
+    },
+    "11374": {
+      "county": "Queens",
+      "city": "Rego Park",
+      "latitude": 40.7278,
+      "longitude": -73.8602
+    },
+    "11375": {
+      "county": "Queens",
+      "city": "Forest Hills",
+      "latitude": 40.7229,
+      "longitude": -73.8473
+    },
+    "11377": {
+      "county": "Queens",
+      "city": "Woodside",
+      "latitude": 40.745,
+      "longitude": -73.9069
+    },
+    "11378": {
+      "county": "Queens",
+      "city": "Maspeth",
+      "latitude": 40.7239,
+      "longitude": -73.8997
+    },
+    "11379": {
+      "county": "Queens",
+      "city": "Middle Village",
+      "latitude": 40.7173,
+      "longitude": -73.8792
+    },
+    "11380": {
+      "county": "Queens",
+      "city": "Elmhurst",
+      "latitude": 40.7365,
+      "longitude": -73.8779
+    },
+    "11381": {
+      "county": "Queens",
+      "city": "Flushing",
+      "latitude": 40.6514,
+      "longitude": -73.8708
+    },
+    "11385": {
+      "county": "Queens",
+      "city": "Ridgewood",
+      "latitude": 40.7036,
+      "longitude": -73.8961
+    },
+    "11386": {
+      "county": "Queens",
+      "city": "Ridgewood",
+      "latitude": 40.7001,
+      "longitude": -73.9057
+    },
+    "11405": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.6514,
+      "longitude": -73.8708
+    },
+    "11411": {
+      "county": "Queens",
+      "city": "Cambria Heights",
+      "latitude": 40.6947,
+      "longitude": -73.7374
+    },
+    "11412": {
+      "county": "Queens",
+      "city": "Saint Albans",
+      "latitude": 40.6958,
+      "longitude": -73.7617
+    },
+    "11413": {
+      "county": "Queens",
+      "city": "Springfield Gardens",
+      "latitude": 40.6645,
+      "longitude": -73.7559
+    },
+    "11414": {
+      "county": "Queens",
+      "city": "Howard Beach",
+      "latitude": 40.6588,
+      "longitude": -73.8438
+    },
+    "11415": {
+      "county": "Queens",
+      "city": "Kew Gardens",
+      "latitude": 40.7069,
+      "longitude": -73.8297
+    },
+    "11416": {
+      "county": "Queens",
+      "city": "Ozone Park",
+      "latitude": 40.6838,
+      "longitude": -73.8514
+    },
+    "11417": {
+      "county": "Queens",
+      "city": "Ozone Park",
+      "latitude": 40.6769,
+      "longitude": -73.8448
+    },
+    "11418": {
+      "county": "Queens",
+      "city": "Richmond Hill",
+      "latitude": 40.6982,
+      "longitude": -73.8345
+    },
+    "11419": {
+      "county": "Queens",
+      "city": "South Richmond Hill",
+      "latitude": 40.6868,
+      "longitude": -73.823
+    },
+    "11420": {
+      "county": "Queens",
+      "city": "South Ozone Park",
+      "latitude": 40.6744,
+      "longitude": -73.819
+    },
+    "11421": {
+      "county": "Queens",
+      "city": "Woodhaven",
+      "latitude": 40.6913,
+      "longitude": -73.8585
+    },
+    "11422": {
+      "county": "Queens",
+      "city": "Rosedale",
+      "latitude": 40.6621,
+      "longitude": -73.7353
+    },
+    "11423": {
+      "county": "Queens",
+      "city": "Hollis",
+      "latitude": 40.7142,
+      "longitude": -73.7677
+    },
+    "11424": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.6514,
+      "longitude": -73.8708
+    },
+    "11425": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.6514,
+      "longitude": -73.8708
+    },
+    "11426": {
+      "county": "Queens",
+      "city": "Bellerose",
+      "latitude": 40.7347,
+      "longitude": -73.723
+    },
+    "11427": {
+      "county": "Queens",
+      "city": "Queens Village",
+      "latitude": 40.7277,
+      "longitude": -73.7489
+    },
+    "11428": {
+      "county": "Queens",
+      "city": "Queens Village",
+      "latitude": 40.7208,
+      "longitude": -73.7433
+    },
+    "11429": {
+      "county": "Queens",
+      "city": "Queens Village",
+      "latitude": 40.709,
+      "longitude": -73.7401
+    },
+    "11430": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.6472,
+      "longitude": -73.7827
+    },
+    "11431": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.6869,
+      "longitude": -73.8501
+    },
+    "11432": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.7119,
+      "longitude": -73.7944
+    },
+    "11433": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.6969,
+      "longitude": -73.7877
+    },
+    "11434": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.6775,
+      "longitude": -73.7758
+    },
+    "11435": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.7029,
+      "longitude": -73.8111
+    },
+    "11436": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.6763,
+      "longitude": -73.7966
+    },
+    "11437": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.6763,
+      "longitude": -73.7966
+    },
+    "11439": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.722,
+      "longitude": -73.7908
+    },
+    "11451": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.6514,
+      "longitude": -73.8708
+    },
+    "11499": {
+      "county": "Queens",
+      "city": "Jamaica",
+      "latitude": 40.6514,
+      "longitude": -73.8708
+    },
+    "11501": {
+      "county": "Nassau",
+      "city": "Mineola",
+      "latitude": 40.7469,
+      "longitude": -73.6398
+    },
+    "11507": {
+      "county": "Nassau",
+      "city": "Albertson",
+      "latitude": 40.7703,
+      "longitude": -73.6514
+    },
+    "11509": {
+      "county": "Nassau",
+      "city": "Atlantic Beach",
+      "latitude": 40.5887,
+      "longitude": -73.7255
+    },
+    "11510": {
+      "county": "Nassau",
+      "city": "Baldwin",
+      "latitude": 40.6548,
+      "longitude": -73.6097
+    },
+    "11514": {
+      "county": "Nassau",
+      "city": "Carle Place",
+      "latitude": 40.7512,
+      "longitude": -73.6119
+    },
+    "11516": {
+      "county": "Nassau",
+      "city": "Cedarhurst",
+      "latitude": 40.6236,
+      "longitude": -73.7264
+    },
+    "11518": {
+      "county": "Nassau",
+      "city": "East Rockaway",
+      "latitude": 40.6404,
+      "longitude": -73.6674
+    },
+    "11520": {
+      "county": "Nassau",
+      "city": "Freeport",
+      "latitude": 40.6536,
+      "longitude": -73.5866
+    },
+    "11530": {
+      "county": "Nassau",
+      "city": "Garden City",
+      "latitude": 40.7245,
+      "longitude": -73.6487
+    },
+    "11531": {
+      "county": "Nassau",
+      "city": "Garden City",
+      "latitude": 40.7268,
+      "longitude": -73.6343
+    },
+    "11542": {
+      "county": "Nassau",
+      "city": "Glen Cove",
+      "latitude": 40.865,
+      "longitude": -73.6277
+    },
+    "11545": {
+      "county": "Nassau",
+      "city": "Glen Head",
+      "latitude": 40.8281,
+      "longitude": -73.6076
+    },
+    "11547": {
+      "county": "Nassau",
+      "city": "Glenwood Landing",
+      "latitude": 40.8307,
+      "longitude": -73.6387
+    },
+    "11548": {
+      "county": "Nassau",
+      "city": "Greenvale",
+      "latitude": 40.8125,
+      "longitude": -73.6261
+    },
+    "11549": {
+      "county": "Nassau",
+      "city": "Hempstead",
+      "latitude": 40.7172,
+      "longitude": -73.6027
+    },
+    "11550": {
+      "county": "Nassau",
+      "city": "Hempstead",
+      "latitude": 40.7049,
+      "longitude": -73.6176
+    },
+    "11551": {
+      "county": "Nassau",
+      "city": "Hempstead",
+      "latitude": 40.7062,
+      "longitude": -73.6187
+    },
+    "11552": {
+      "county": "Nassau",
+      "city": "West Hempstead",
+      "latitude": 40.6929,
+      "longitude": -73.6539
+    },
+    "11553": {
+      "county": "Nassau",
+      "city": "Uniondale",
+      "latitude": 40.702,
+      "longitude": -73.592
+    },
+    "11554": {
+      "county": "Nassau",
+      "city": "East Meadow",
+      "latitude": 40.7149,
+      "longitude": -73.5561
+    },
+    "11555": {
+      "county": "Nassau",
+      "city": "Uniondale",
+      "latitude": 40.7004,
+      "longitude": -73.5929
+    },
+    "11556": {
+      "county": "Nassau",
+      "city": "Uniondale",
+      "latitude": 40.7548,
+      "longitude": -73.6018
+    },
+    "11557": {
+      "county": "Nassau",
+      "city": "Hewlett",
+      "latitude": 40.6404,
+      "longitude": -73.6957
+    },
+    "11558": {
+      "county": "Nassau",
+      "city": "Island Park",
+      "latitude": 40.604,
+      "longitude": -73.6554
+    },
+    "11559": {
+      "county": "Nassau",
+      "city": "Lawrence",
+      "latitude": 40.614,
+      "longitude": -73.733
+    },
+    "11560": {
+      "county": "Nassau",
+      "city": "Locust Valley",
+      "latitude": 40.8817,
+      "longitude": -73.5927
+    },
+    "11561": {
+      "county": "Nassau",
+      "city": "Long Beach",
+      "latitude": 40.5877,
+      "longitude": -73.6595
+    },
+    "11563": {
+      "county": "Nassau",
+      "city": "Lynbrook",
+      "latitude": 40.6571,
+      "longitude": -73.6741
+    },
+    "11565": {
+      "county": "Nassau",
+      "city": "Malverne",
+      "latitude": 40.675,
+      "longitude": -73.6731
+    },
+    "11566": {
+      "county": "Nassau",
+      "city": "Merrick",
+      "latitude": 40.6685,
+      "longitude": -73.5536
+    },
+    "11568": {
+      "county": "Nassau",
+      "city": "Old Westbury",
+      "latitude": 40.7882,
+      "longitude": -73.5875
+    },
+    "11569": {
+      "county": "Nassau",
+      "city": "Point Lookout",
+      "latitude": 40.5905,
+      "longitude": -73.5808
+    },
+    "11570": {
+      "county": "Nassau",
+      "city": "Rockville Centre",
+      "latitude": 40.6637,
+      "longitude": -73.638
+    },
+    "11571": {
+      "county": "Nassau",
+      "city": "Rockville Centre",
+      "latitude": 40.6587,
+      "longitude": -73.6412
+    },
+    "11572": {
+      "county": "Nassau",
+      "city": "Oceanside",
+      "latitude": 40.6362,
+      "longitude": -73.6375
+    },
+    "11575": {
+      "county": "Nassau",
+      "city": "Roosevelt",
+      "latitude": 40.6802,
+      "longitude": -73.5867
+    },
+    "11576": {
+      "county": "Nassau",
+      "city": "Roslyn",
+      "latitude": 40.7984,
+      "longitude": -73.6477
+    },
+    "11577": {
+      "county": "Nassau",
+      "city": "Roslyn Heights",
+      "latitude": 40.7845,
+      "longitude": -73.6403
+    },
+    "11579": {
+      "county": "Nassau",
+      "city": "Sea Cliff",
+      "latitude": 40.846,
+      "longitude": -73.6436
+    },
+    "11580": {
+      "county": "Nassau",
+      "city": "Valley Stream",
+      "latitude": 40.6742,
+      "longitude": -73.7057
+    },
+    "11581": {
+      "county": "Nassau",
+      "city": "Valley Stream",
+      "latitude": 40.6523,
+      "longitude": -73.7118
+    },
+    "11582": {
+      "county": "Nassau",
+      "city": "Valley Stream",
+      "latitude": 40.6643,
+      "longitude": -73.7085
+    },
+    "11590": {
+      "county": "Nassau",
+      "city": "Westbury",
+      "latitude": 40.7557,
+      "longitude": -73.5723
+    },
+    "11596": {
+      "county": "Nassau",
+      "city": "Williston Park",
+      "latitude": 40.7592,
+      "longitude": -73.6449
+    },
+    "11598": {
+      "county": "Nassau",
+      "city": "Woodmere",
+      "latitude": 40.6326,
+      "longitude": -73.7141
+    },
+    "11599": {
+      "county": "Nassau",
+      "city": "Garden City",
+      "latitude": 40.7268,
+      "longitude": -73.6343
+    },
+    "11690": {
+      "county": "Queens",
+      "city": "Far Rockaway",
+      "latitude": 40.6054,
+      "longitude": -73.7551
+    },
+    "11691": {
+      "county": "Queens",
+      "city": "Far Rockaway",
+      "latitude": 40.6006,
+      "longitude": -73.758
+    },
+    "11692": {
+      "county": "Queens",
+      "city": "Arverne",
+      "latitude": 40.5923,
+      "longitude": -73.7933
+    },
+    "11693": {
+      "county": "Queens",
+      "city": "Far Rockaway",
+      "latitude": 40.6076,
+      "longitude": -73.8198
+    },
+    "11694": {
+      "county": "Queens",
+      "city": "Rockaway Park",
+      "latitude": 40.5766,
+      "longitude": -73.8428
+    },
+    "11695": {
+      "county": "Queens",
+      "city": "Far Rockaway",
+      "latitude": 40.6514,
+      "longitude": -73.8708
+    },
+    "11697": {
+      "county": "Queens",
+      "city": "Breezy Point",
+      "latitude": 40.5594,
+      "longitude": -73.9067
+    },
+    "11701": {
+      "county": "Suffolk",
+      "city": "Amityville",
+      "latitude": 40.6842,
+      "longitude": -73.4171
+    },
+    "11702": {
+      "county": "Suffolk",
+      "city": "Babylon",
+      "latitude": 40.6957,
+      "longitude": -73.3257
+    },
+    "11703": {
+      "county": "Suffolk",
+      "city": "North Babylon",
+      "latitude": 40.7321,
+      "longitude": -73.3236
+    },
+    "11704": {
+      "county": "Suffolk",
+      "city": "West Babylon",
+      "latitude": 40.7135,
+      "longitude": -73.3546
+    },
+    "11705": {
+      "county": "Suffolk",
+      "city": "Bayport",
+      "latitude": 40.7444,
+      "longitude": -73.0542
+    },
+    "11706": {
+      "county": "Suffolk",
+      "city": "Bay Shore",
+      "latitude": 40.7051,
+      "longitude": -73.243
+    },
+    "11707": {
+      "county": "Suffolk",
+      "city": "West Babylon",
+      "latitude": 40.7182,
+      "longitude": -73.3543
+    },
+    "11709": {
+      "county": "Nassau",
+      "city": "Bayville",
+      "latitude": 40.9074,
+      "longitude": -73.5601
+    },
+    "11710": {
+      "county": "Nassau",
+      "city": "Bellmore",
+      "latitude": 40.6729,
+      "longitude": -73.5365
+    },
+    "11713": {
+      "county": "Suffolk",
+      "city": "Bellport",
+      "latitude": 40.7733,
+      "longitude": -72.9469
+    },
+    "11714": {
+      "county": "Nassau",
+      "city": "Bethpage",
+      "latitude": 40.74,
+      "longitude": -73.4857
+    },
+    "11715": {
+      "county": "Suffolk",
+      "city": "Blue Point",
+      "latitude": 40.7501,
+      "longitude": -73.0352
+    },
+    "11716": {
+      "county": "Suffolk",
+      "city": "Bohemia",
+      "latitude": 40.7678,
+      "longitude": -73.1163
+    },
+    "11717": {
+      "county": "Suffolk",
+      "city": "Brentwood",
+      "latitude": 40.7809,
+      "longitude": -73.2503
+    },
+    "11718": {
+      "county": "Suffolk",
+      "city": "Brightwaters",
+      "latitude": 40.728,
+      "longitude": -73.2646
+    },
+    "11719": {
+      "county": "Suffolk",
+      "city": "Brookhaven",
+      "latitude": 40.7843,
+      "longitude": -72.8921
+    },
+    "11720": {
+      "county": "Suffolk",
+      "city": "Centereach",
+      "latitude": 40.8705,
+      "longitude": -73.0822
+    },
+    "11721": {
+      "county": "Suffolk",
+      "city": "Centerport",
+      "latitude": 40.8929,
+      "longitude": -73.3754
+    },
+    "11722": {
+      "county": "Suffolk",
+      "city": "Central Islip",
+      "latitude": 40.7866,
+      "longitude": -73.1961
+    },
+    "11724": {
+      "county": "Suffolk",
+      "city": "Cold Spring Harbor",
+      "latitude": 40.8601,
+      "longitude": -73.4423
+    },
+    "11725": {
+      "county": "Suffolk",
+      "city": "Commack",
+      "latitude": 40.843,
+      "longitude": -73.2799
+    },
+    "11726": {
+      "county": "Suffolk",
+      "city": "Copiague",
+      "latitude": 40.6778,
+      "longitude": -73.3963
+    },
+    "11727": {
+      "county": "Suffolk",
+      "city": "Coram",
+      "latitude": 40.885,
+      "longitude": -73.0069
+    },
+    "11729": {
+      "county": "Suffolk",
+      "city": "Deer Park",
+      "latitude": 40.7591,
+      "longitude": -73.3257
+    },
+    "11730": {
+      "county": "Suffolk",
+      "city": "East Islip",
+      "latitude": 40.7282,
+      "longitude": -73.1805
+    },
+    "11731": {
+      "county": "Suffolk",
+      "city": "East Northport",
+      "latitude": 40.857,
+      "longitude": -73.3146
+    },
+    "11732": {
+      "county": "Nassau",
+      "city": "East Norwich",
+      "latitude": 40.8472,
+      "longitude": -73.5349
+    },
+    "11733": {
+      "county": "Suffolk",
+      "city": "East Setauket",
+      "latitude": 40.9426,
+      "longitude": -73.1116
+    },
+    "11735": {
+      "county": "Nassau",
+      "city": "Farmingdale",
+      "latitude": 40.7315,
+      "longitude": -73.4327
+    },
+    "11737": {
+      "county": "Nassau",
+      "city": "Farmingdale",
+      "latitude": 40.7326,
+      "longitude": -73.4454
+    },
+    "11738": {
+      "county": "Suffolk",
+      "city": "Farmingville",
+      "latitude": 40.8366,
+      "longitude": -73.0413
+    },
+    "11739": {
+      "county": "Suffolk",
+      "city": "Great River",
+      "latitude": 40.7297,
+      "longitude": -73.1607
+    },
+    "11740": {
+      "county": "Suffolk",
+      "city": "Greenlawn",
+      "latitude": 40.8621,
+      "longitude": -73.3646
+    },
+    "11741": {
+      "county": "Suffolk",
+      "city": "Holbrook",
+      "latitude": 40.7964,
+      "longitude": -73.0718
+    },
+    "11742": {
+      "county": "Suffolk",
+      "city": "Holtsville",
+      "latitude": 40.8105,
+      "longitude": -73.0416
+    },
+    "11743": {
+      "county": "Suffolk",
+      "city": "Huntington",
+      "latitude": 40.8676,
+      "longitude": -73.4102
+    },
+    "11746": {
+      "county": "Suffolk",
+      "city": "Huntington Station",
+      "latitude": 40.8143,
+      "longitude": -73.3634
+    },
+    "11747": {
+      "county": "Suffolk",
+      "city": "Melville",
+      "latitude": 40.7946,
+      "longitude": -73.403
+    },
+    "11749": {
+      "county": "Suffolk",
+      "city": "Islandia",
+      "latitude": 40.8067,
+      "longitude": -73.1709
+    },
+    "11751": {
+      "county": "Suffolk",
+      "city": "Islip",
+      "latitude": 40.7348,
+      "longitude": -73.2221
+    },
+    "11752": {
+      "county": "Suffolk",
+      "city": "Islip Terrace",
+      "latitude": 40.7548,
+      "longitude": -73.1827
+    },
+    "11753": {
+      "county": "Nassau",
+      "city": "Jericho",
+      "latitude": 40.7881,
+      "longitude": -73.5331
+    },
+    "11754": {
+      "county": "Suffolk",
+      "city": "Kings Park",
+      "latitude": 40.8861,
+      "longitude": -73.2438
+    },
+    "11755": {
+      "county": "Suffolk",
+      "city": "Lake Grove",
+      "latitude": 40.8567,
+      "longitude": -73.1168
+    },
+    "11756": {
+      "county": "Nassau",
+      "city": "Levittown",
+      "latitude": 40.7254,
+      "longitude": -73.5166
+    },
+    "11757": {
+      "county": "Suffolk",
+      "city": "Lindenhurst",
+      "latitude": 40.6884,
+      "longitude": -73.3745
+    },
+    "11758": {
+      "county": "Nassau",
+      "city": "Massapequa",
+      "latitude": 40.6682,
+      "longitude": -73.4588
+    },
+    "11760": {
+      "county": "Suffolk",
+      "city": "Melville",
+      "latitude": 40.7934,
+      "longitude": -73.4151
+    },
+    "11762": {
+      "county": "Nassau",
+      "city": "Massapequa Park",
+      "latitude": 40.6807,
+      "longitude": -73.4444
+    },
+    "11763": {
+      "county": "Suffolk",
+      "city": "Medford",
+      "latitude": 40.8174,
+      "longitude": -72.9852
+    },
+    "11764": {
+      "county": "Suffolk",
+      "city": "Miller Place",
+      "latitude": 40.9436,
+      "longitude": -72.9913
+    },
+    "11765": {
+      "county": "Nassau",
+      "city": "Mill Neck",
+      "latitude": 40.8857,
+      "longitude": -73.5526
+    },
+    "11766": {
+      "county": "Suffolk",
+      "city": "Mount Sinai",
+      "latitude": 40.9271,
+      "longitude": -73.0127
+    },
+    "11767": {
+      "county": "Suffolk",
+      "city": "Nesconset",
+      "latitude": 40.8462,
+      "longitude": -73.1482
+    },
+    "11768": {
+      "county": "Suffolk",
+      "city": "Northport",
+      "latitude": 40.9051,
+      "longitude": -73.3309
+    },
+    "11769": {
+      "county": "Suffolk",
+      "city": "Oakdale",
+      "latitude": 40.7382,
+      "longitude": -73.1297
+    },
+    "11770": {
+      "county": "Suffolk",
+      "city": "Ocean Beach",
+      "latitude": 40.6443,
+      "longitude": -73.1613
+    },
+    "11771": {
+      "county": "Nassau",
+      "city": "Oyster Bay",
+      "latitude": 40.866,
+      "longitude": -73.5272
+    },
+    "11772": {
+      "county": "Suffolk",
+      "city": "Patchogue",
+      "latitude": 40.7609,
+      "longitude": -72.9871
+    },
+    "11773": {
+      "county": "Nassau",
+      "city": "Syosset",
+      "latitude": 40.8262,
+      "longitude": -73.5021
+    },
+    "11775": {
+      "county": "Suffolk",
+      "city": "Melville",
+      "latitude": 40.7934,
+      "longitude": -73.4151
+    },
+    "11776": {
+      "county": "Suffolk",
+      "city": "Port Jefferson Station",
+      "latitude": 40.9136,
+      "longitude": -73.0464
+    },
+    "11777": {
+      "county": "Suffolk",
+      "city": "Port Jefferson",
+      "latitude": 40.9457,
+      "longitude": -73.0611
+    },
+    "11778": {
+      "county": "Suffolk",
+      "city": "Rocky Point",
+      "latitude": 40.9492,
+      "longitude": -72.9357
+    },
+    "11779": {
+      "county": "Suffolk",
+      "city": "Ronkonkoma",
+      "latitude": 40.8083,
+      "longitude": -73.1305
+    },
+    "11780": {
+      "county": "Suffolk",
+      "city": "Saint James",
+      "latitude": 40.8813,
+      "longitude": -73.1591
+    },
+    "11782": {
+      "county": "Suffolk",
+      "city": "Sayville",
+      "latitude": 40.7459,
+      "longitude": -73.0859
+    },
+    "11783": {
+      "county": "Nassau",
+      "city": "Seaford",
+      "latitude": 40.6795,
+      "longitude": -73.491
+    },
+    "11784": {
+      "county": "Suffolk",
+      "city": "Selden",
+      "latitude": 40.8699,
+      "longitude": -73.0448
+    },
+    "11786": {
+      "county": "Suffolk",
+      "city": "Shoreham",
+      "latitude": 40.9485,
+      "longitude": -72.8927
+    },
+    "11787": {
+      "county": "Suffolk",
+      "city": "Smithtown",
+      "latitude": 40.8542,
+      "longitude": -73.2138
+    },
+    "11788": {
+      "county": "Suffolk",
+      "city": "Hauppauge",
+      "latitude": 40.8231,
+      "longitude": -73.1958
+    },
+    "11789": {
+      "county": "Suffolk",
+      "city": "Sound Beach",
+      "latitude": 40.9567,
+      "longitude": -72.9742
+    },
+    "11790": {
+      "county": "Suffolk",
+      "city": "Stony Brook",
+      "latitude": 40.9068,
+      "longitude": -73.1277
+    },
+    "11791": {
+      "county": "Nassau",
+      "city": "Syosset",
+      "latitude": 40.8146,
+      "longitude": -73.5024
+    },
+    "11792": {
+      "county": "Suffolk",
+      "city": "Wading River",
+      "latitude": 40.952,
+      "longitude": -72.8348
+    },
+    "11793": {
+      "county": "Nassau",
+      "city": "Wantagh",
+      "latitude": 40.685,
+      "longitude": -73.5103
+    },
+    "11794": {
+      "county": "Suffolk",
+      "city": "Stony Brook",
+      "latitude": 40.9257,
+      "longitude": -73.1409
+    },
+    "11795": {
+      "county": "Suffolk",
+      "city": "West Islip",
+      "latitude": 40.7117,
+      "longitude": -73.3007
+    },
+    "11796": {
+      "county": "Suffolk",
+      "city": "West Sayville",
+      "latitude": 40.732,
+      "longitude": -73.1
+    },
+    "11797": {
+      "county": "Nassau",
+      "city": "Woodbury",
+      "latitude": 40.8154,
+      "longitude": -73.4716
+    },
+    "11798": {
+      "county": "Suffolk",
+      "city": "Wyandanch",
+      "latitude": 40.7523,
+      "longitude": -73.3761
+    },
+    "11801": {
+      "county": "Nassau",
+      "city": "Hicksville",
+      "latitude": 40.7623,
+      "longitude": -73.523
+    },
+    "11802": {
+      "county": "Nassau",
+      "city": "Hicksville",
+      "latitude": 40.7684,
+      "longitude": -73.5251
+    },
+    "11803": {
+      "county": "Nassau",
+      "city": "Plainview",
+      "latitude": 40.7781,
+      "longitude": -73.4816
+    },
+    "11804": {
+      "county": "Nassau",
+      "city": "Old Bethpage",
+      "latitude": 40.765,
+      "longitude": -73.4575
+    },
+    "11815": {
+      "county": "Nassau",
+      "city": "Hicksville",
+      "latitude": 40.7548,
+      "longitude": -73.6018
+    },
+    "11819": {
+      "county": "Nassau",
+      "city": "Hicksville",
+      "latitude": 40.7684,
+      "longitude": -73.5251
+    },
+    "11853": {
+      "county": "Nassau",
+      "city": "Jericho",
+      "latitude": 40.792,
+      "longitude": -73.5398
+    },
+    "11901": {
+      "county": "Suffolk",
+      "city": "Riverhead",
+      "latitude": 40.9262,
+      "longitude": -72.652
+    },
+    "11930": {
+      "county": "Suffolk",
+      "city": "Amagansett",
+      "latitude": 40.9895,
+      "longitude": -72.0959
+    },
+    "11931": {
+      "county": "Suffolk",
+      "city": "Aquebogue",
+      "latitude": 40.9445,
+      "longitude": -72.627
+    },
+    "11932": {
+      "county": "Suffolk",
+      "city": "Bridgehampton",
+      "latitude": 40.9339,
+      "longitude": -72.3077
+    },
+    "11933": {
+      "county": "Suffolk",
+      "city": "Calverton",
+      "latitude": 40.9297,
+      "longitude": -72.7423
+    },
+    "11934": {
+      "county": "Suffolk",
+      "city": "Center Moriches",
+      "latitude": 40.7997,
+      "longitude": -72.797
+    },
+    "11935": {
+      "county": "Suffolk",
+      "city": "Cutchogue",
+      "latitude": 41.0139,
+      "longitude": -72.4803
+    },
+    "11937": {
+      "county": "Suffolk",
+      "city": "East Hampton",
+      "latitude": 40.993,
+      "longitude": -72.179
+    },
+    "11939": {
+      "county": "Suffolk",
+      "city": "East Marion",
+      "latitude": 41.1264,
+      "longitude": -72.3419
+    },
+    "11940": {
+      "county": "Suffolk",
+      "city": "East Moriches",
+      "latitude": 40.809,
+      "longitude": -72.7538
+    },
+    "11941": {
+      "county": "Suffolk",
+      "city": "Eastport",
+      "latitude": 40.8297,
+      "longitude": -72.7283
+    },
+    "11942": {
+      "county": "Suffolk",
+      "city": "East Quogue",
+      "latitude": 40.8428,
+      "longitude": -72.5813
+    },
+    "11944": {
+      "county": "Suffolk",
+      "city": "Greenport",
+      "latitude": 41.1039,
+      "longitude": -72.3674
+    },
+    "11946": {
+      "county": "Suffolk",
+      "city": "Hampton Bays",
+      "latitude": 40.8726,
+      "longitude": -72.5202
+    },
+    "11947": {
+      "county": "Suffolk",
+      "city": "Jamesport",
+      "latitude": 40.9495,
+      "longitude": -72.5815
+    },
+    "11948": {
+      "county": "Suffolk",
+      "city": "Laurel",
+      "latitude": 40.9674,
+      "longitude": -72.554
+    },
+    "11949": {
+      "county": "Suffolk",
+      "city": "Manorville",
+      "latitude": 40.8421,
+      "longitude": -72.8002
+    },
+    "11950": {
+      "county": "Suffolk",
+      "city": "Mastic",
+      "latitude": 40.8064,
+      "longitude": -72.8566
+    },
+    "11951": {
+      "county": "Suffolk",
+      "city": "Mastic Beach",
+      "latitude": 40.7657,
+      "longitude": -72.8537
+    },
+    "11952": {
+      "county": "Suffolk",
+      "city": "Mattituck",
+      "latitude": 40.9943,
+      "longitude": -72.5363
+    },
+    "11953": {
+      "county": "Suffolk",
+      "city": "Middle Island",
+      "latitude": 40.8782,
+      "longitude": -72.9525
+    },
+    "11954": {
+      "county": "Suffolk",
+      "city": "Montauk",
+      "latitude": 41.0459,
+      "longitude": -71.944
+    },
+    "11955": {
+      "county": "Suffolk",
+      "city": "Moriches",
+      "latitude": 40.8095,
+      "longitude": -72.8229
+    },
+    "11956": {
+      "county": "Suffolk",
+      "city": "New Suffolk",
+      "latitude": 40.9915,
+      "longitude": -72.4759
+    },
+    "11957": {
+      "county": "Suffolk",
+      "city": "Orient",
+      "latitude": 41.1437,
+      "longitude": -72.2879
+    },
+    "11958": {
+      "county": "Suffolk",
+      "city": "Peconic",
+      "latitude": 41.0392,
+      "longitude": -72.4666
+    },
+    "11959": {
+      "county": "Suffolk",
+      "city": "Quogue",
+      "latitude": 40.8226,
+      "longitude": -72.6012
+    },
+    "11960": {
+      "county": "Suffolk",
+      "city": "Remsenburg",
+      "latitude": 40.8086,
+      "longitude": -72.7064
+    },
+    "11961": {
+      "county": "Suffolk",
+      "city": "Ridge",
+      "latitude": 40.9018,
+      "longitude": -72.8881
+    },
+    "11962": {
+      "county": "Suffolk",
+      "city": "Sagaponack",
+      "latitude": 40.9305,
+      "longitude": -72.2707
+    },
+    "11963": {
+      "county": "Suffolk",
+      "city": "Sag Harbor",
+      "latitude": 40.982,
+      "longitude": -72.3067
+    },
+    "11964": {
+      "county": "Suffolk",
+      "city": "Shelter Island",
+      "latitude": 41.064,
+      "longitude": -72.3366
+    },
+    "11965": {
+      "county": "Suffolk",
+      "city": "Shelter Island Heights",
+      "latitude": 41.084,
+      "longitude": -72.3559
+    },
+    "11967": {
+      "county": "Suffolk",
+      "city": "Shirley",
+      "latitude": 40.8015,
+      "longitude": -72.8676
+    },
+    "11968": {
+      "county": "Suffolk",
+      "city": "Southampton",
+      "latitude": 40.9043,
+      "longitude": -72.4103
+    },
+    "11969": {
+      "county": "Suffolk",
+      "city": "Southampton",
+      "latitude": 40.8843,
+      "longitude": -72.3895
+    },
+    "11970": {
+      "county": "Suffolk",
+      "city": "South Jamesport",
+      "latitude": 40.9365,
+      "longitude": -72.5773
+    },
+    "11971": {
+      "county": "Suffolk",
+      "city": "Southold",
+      "latitude": 41.0555,
+      "longitude": -72.429
+    },
+    "11972": {
+      "county": "Suffolk",
+      "city": "Speonk",
+      "latitude": 40.8195,
+      "longitude": -72.7054
+    },
+    "11973": {
+      "county": "Suffolk",
+      "city": "Upton",
+      "latitude": 40.8678,
+      "longitude": -72.8822
+    },
+    "11975": {
+      "county": "Suffolk",
+      "city": "Wainscott",
+      "latitude": 40.9396,
+      "longitude": -72.2425
+    },
+    "11976": {
+      "county": "Suffolk",
+      "city": "Water Mill",
+      "latitude": 40.9209,
+      "longitude": -72.3491
+    },
+    "11977": {
+      "county": "Suffolk",
+      "city": "Westhampton",
+      "latitude": 40.818,
+      "longitude": -72.6699
+    },
+    "11978": {
+      "county": "Suffolk",
+      "city": "Westhampton Beach",
+      "latitude": 40.8295,
+      "longitude": -72.6473
+    },
+    "11980": {
+      "county": "Suffolk",
+      "city": "Yaphank",
+      "latitude": 40.837,
+      "longitude": -72.9174
+    }
+  }
+}
