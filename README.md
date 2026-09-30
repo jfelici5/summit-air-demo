@@ -7,22 +7,6 @@ AI phone agent for inbound residential and commercial HVAC calls
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    Caller[Inbound caller] --> Retell[Retell voice agent]
-    Retell -->|Signed tool calls| API[FastAPI on Railway]
-    API --> DB[(Postgres)]
-    API --> ZIP[Local service ZIP allowlist]
-    API --> Weather[Open-Meteo weather]
-    API --> Cal[Cal.com availability and booking]
-    Cal -->|Signed booking events| API
-    Retell -->|Signed call events| API
-    Inbox[Private dispatch inbox] -->|Admin authentication| API
-    Cal --> Confirmation[Booking confirmation and management links]
-    API --> Gmail[Google Apps Script inquiry sender]
-    Gmail --> Receipt[Inquiry acknowledgment email]
-```
-
 Retell manages the phone connection, transcription, voice, and conversation.
 Its prompt extracts caller facts and invokes backend tools. The Python backend
 persists those facts, evaluates service coverage and urgency, and controls
