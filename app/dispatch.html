@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Summit Air · Dispatch</title>
+  <style>
+    :root{font:16px/1.5 system-ui,sans-serif;color:#183331;background:#f4f6f2}
+    *{box-sizing:border-box}body{margin:0}main{max-width:1060px;margin:0 auto;padding:36px 24px}
+    header{display:flex;justify-content:space-between;gap:24px;align-items:center;margin-bottom:28px}
+    h1{font-size:30px;letter-spacing:-1px;margin:0}p{margin:6px 0;color:#526764}
+    .label{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#557169}
+    form{display:flex;gap:10px;align-items:end;flex-wrap:wrap;padding:20px;background:white;border:1px solid #d9e1d9;border-radius:12px}
+    label{display:block;font-size:13px}input{padding:11px;border:1px solid #bacbc2;border-radius:6px;min-width:270px}
+    button{background:#204f43;color:white;border:0;border-radius:6px;padding:12px 18px;cursor:pointer}
+    button:disabled{opacity:.5;cursor:wait}.message{min-height:28px;margin:14px 0}
+    #requests{display:grid;gap:16px}.card{background:#fff;border:1px solid #d9e1d9;border-left:5px solid #7c9b8c;border-radius:10px;padding:22px}
+    .card.urgent{border-left-color:#bf7615}.card.emergency{border-left-color:#ba3f34}
+    .top{display:flex;gap:12px;justify-content:space-between;align-items:center}h2{font-size:19px;margin:0}
+    .badge{padding:3px 10px;border-radius:30px;background:#eaf1ea;font-size:12px;font-weight:650;text-transform:uppercase}
+    .urgent .badge{background:#fff0d8}.emergency .badge{background:#ffe5df}
+    dl{display:grid;grid-template-columns:130px 1fr;gap:6px 12px;font-size:14px;margin-bottom:0}
+    dt{color:#6b7f79}dd{margin:0;overflow-wrap:anywhere}.empty{padding:48px;text-align:center;border:1px dashed #bacbc2;border-radius:10px}
+    .id{font:11px ui-monospace,monospace;color:#8b9c95;margin-top:15px}
+    @media(max-width:600px){header{display:block}dl{grid-template-columns:1fr;gap:2px}dd{margin-bottom:8px}input{min-width:0;width:100%}}
+  </style>
+</head>
+<body><main>
+  <header><div><div class="label">Summit Air</div><h1>Dispatch inbox</h1><p>Service requests, with safety and urgent calls first.</p></div><div class="label">Service operations</div></header>
+  <form id="access"><div><label for="token">Admin access key</label><input id="token" type="password" autocomplete="off" required></div><button id="refresh">Load requests</button></form>
+  <p id="message" class="message" role="status"></p><section id="requests" aria-label="Service requests"></section>
+</main>
+<script>
+  const el=(tag,text,className)=>{const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(className)node.className=className;return node;};
+  document.getElementById('access').addEventListener('submit',async event=>{
+    event.preventDefault();const button=document.getElementById('refresh');const message=document.getElementById('message');button.disabled=true;message.textContent='Loading…';
+    try{
+      const response=await fetch('/admin/requests',{headers:{Authorization:'Bearer '+document.getElementById('token').value},cache:'no-store'});
+      if(!response.ok)throw new Error(response.status===401?'That access key was not accepted.':'Requests could not be loaded.');
+      const data=await response.json();const list=document.getElementById('requests');list.replaceChildren();
+      for(const request of data.requests){
+        const facts=request.facts;const card=el('article',undefined,'card '+request.priority);const top=el('div',undefined,'top');
+        top.append(el('h2',facts.name||'Caller details pending'),el('span',request.priority,'badge'));card.append(top,el('p',facts.issue_description||'Call details pending'));
+        const details=el('dl');const rows=[['Next step',request.status.replaceAll('_',' ')],['Location',(facts.formatted_address||facts.raw_address||'Pending')+(facts.unit?', '+facts.unit:'')],['Callback',facts.phone||'Pending'],['Property',facts.property_category||'Pending'],['Priority reason',request.priority_reasons.join('; ')]];
+        if(request.followup_reason)rows.push(['Follow-up',request.followup_reason]);
+        if(facts.request_intent)rows.push(['Request type',facts.request_intent.replaceAll('_',' ')]);
+        if(facts.team_message)rows.push(['Message for team',facts.team_message]);
+        if(facts.email)rows.push(['Email',facts.email+(facts.email_confirmed?' · confirmed':' · unconfirmed')]);
+        if(facts.business_name)rows.push(['Business/site',facts.business_name]);
+        if(facts.property_type)rows.push(['Site type',facts.property_type]);
+        if(facts.onsite_contact_name)rows.push(['Onsite contact',facts.onsite_contact_name]);
+        if(facts.onsite_contact_phone)rows.push(['Onsite phone',facts.onsite_contact_phone+(facts.onsite_contact_phone_confirmed?' · confirmed':' · unconfirmed')]);
+        if(facts.access_notes)rows.push(['Access instructions',facts.access_notes]);
+        if(request.appointment){const appointment=request.appointment;rows.push(['Appointment',new Date(appointment.start).toLocaleString('en-US',{timeZone:'America/New_York'})+' – '+new Date(appointment.end).toLocaleTimeString('en-US',{timeZone:'America/New_York'})+' ET'],['Booking status',appointment.status+(appointment.dispatch_hold?' · requires team review':'')]);}
+        for(const [label,value] of rows)details.append(el('dt',label),el('dd',value));card.append(details,el('div',request.request_id,'id'));list.append(card);
+      }
+      if(!data.requests.length)list.append(el('div','No service requests yet. Place a test call to get started.','empty'));
+      message.textContent=data.requests.length+' requests · updated '+new Date().toLocaleTimeString();
+    }catch(error){message.textContent=error.message;}finally{button.disabled=false;}
+  });
+</script></body></html>
