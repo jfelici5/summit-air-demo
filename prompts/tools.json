@@ -1,0 +1,621 @@
+[
+  {
+    "type": "custom",
+    "name": "update_request",
+    "description": "Save newly volunteered facts or explicit corrections immediately; returns authoritative triage, location, missing fields and next action. Send only known values; omit unknown fields. Claim saved or flagged only when saved=true. Send postal_code as the five-digit service ZIP to check the fixed allowlist. Street addresses are caller supplied and never need geocoding. Stop booking intake immediately if service_coverage.eligible=false.",
+    "url": "https://summit-api-production-80be.up.railway.app/tools/update_request",
+    "method": "POST",
+    "args_at_root": false,
+    "parameters": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "anyOf": [
+            {
+              "maxLength": 160,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "phone": {
+          "anyOf": [
+            {
+              "maxLength": 24,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "callback_confirmed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "email": {
+          "anyOf": [
+            {
+              "format": "email",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "email_confirmed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "email_declined": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "postal_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "raw_address": {
+          "anyOf": [
+            {
+              "maxLength": 400,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "maxLength": 80,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "address_confirmed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "property_category": {
+          "anyOf": [
+            {
+              "enum": [
+                "residential",
+                "commercial",
+                "unknown"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "property_type": {
+          "anyOf": [
+            {
+              "maxLength": 80,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Secondary site type, such as warehouse, office, restaurant, retail, hotel, school, medical facility, industrial, or another caller-described type."
+        },
+        "business_name": {
+          "anyOf": [
+            {
+              "maxLength": 160,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "onsite_contact_name": {
+          "anyOf": [
+            {
+              "maxLength": 160,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "onsite_contact_phone": {
+          "anyOf": [
+            {
+              "maxLength": 24,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "onsite_contact_phone_confirmed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "issue_type": {
+          "anyOf": [
+            {
+              "enum": [
+                "no_heat",
+                "no_ac",
+                "poor_cooling",
+                "maintenance",
+                "thermostat",
+                "noise",
+                "water_leak",
+                "installation",
+                "replacement",
+                "ductwork",
+                "other",
+                "unknown"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "issue_description": {
+          "anyOf": [
+            {
+              "maxLength": 2000,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "request_intent": {
+          "anyOf": [
+            {
+              "enum": [
+                "service_visit",
+                "quote_inquiry",
+                "team_message"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "team_message": {
+          "anyOf": [
+            {
+              "maxLength": 2000,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "system_type": {
+          "anyOf": [
+            {
+              "maxLength": 80,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "affected_units": {
+          "anyOf": [
+            {
+              "maximum": 10000,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "scope_confirmed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "building_wide": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "elderly_present": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "medical_risk_present": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "dangerously_cold": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "dangerously_hot": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "winter_reported": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reported_temperature_f": {
+          "anyOf": [
+            {
+              "maximum": 160,
+              "minimum": -100,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "hazards": {
+          "anyOf": [
+            {
+              "items": {
+                "enum": [
+                  "gas_smell",
+                  "carbon_monoxide",
+                  "smoke",
+                  "fire",
+                  "electrical_burning",
+                  "sparking"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "safety_cleared": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "safety_clearance_notes": {
+          "anyOf": [
+            {
+              "maxLength": 500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "safe_location": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "human_requested": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "authorized_to_schedule": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "availability_notes": {
+          "anyOf": [
+            {
+              "maxLength": 500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "access_notes": {
+          "anyOf": [
+            {
+              "maxLength": 2000,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Caller-supplied access instructions: floor/suite, front desk, entrance, building code, parking/loading access, or site access hours; no special access is valid."
+        }
+      },
+      "type": "object"
+    },
+    "speak_during_execution": false,
+    "speak_after_execution": true,
+    "timeout_ms": 15000,
+    "max_retry": 0
+  },
+  {
+    "type": "custom",
+    "name": "find_openings",
+    "description": "Get real service windows after intake is complete. Without a known preference, omit date filters to check the earliest openings; otherwise use the caller's local dates and time preference. a valid, confirmed email is mandatory. Returns exact slot IDs. Never invent slots.",
+    "url": "https://summit-api-production-80be.up.railway.app/tools/find_openings",
+    "method": "POST",
+    "args_at_root": false,
+    "parameters": {
+      "additionalProperties": false,
+      "properties": {
+        "start_date": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "end_date": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "time_of_day": {
+          "pattern": "^(any|morning|afternoon)$",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "speak_during_execution": true,
+    "speak_after_execution": true,
+    "timeout_ms": 15000,
+    "max_retry": 0,
+    "execution_message_description": "Briefly say you're checking openings for a technician to take a look. Don't claim availability yet."
+  },
+  {
+    "type": "custom",
+    "name": "book_selected",
+    "description": "Book the exact offered slot only after explicit caller agreement. A valid, confirmed email is required; never book after an email refusal. Check booking_status and appointment before confirming. Never retry an uncertain result blindly.",
+    "url": "https://summit-api-production-80be.up.railway.app/tools/book_selected",
+    "method": "POST",
+    "args_at_root": false,
+    "parameters": {
+      "additionalProperties": false,
+      "properties": {
+        "slot_id": {
+          "maxLength": 100,
+          "minLength": 1,
+          "type": "string"
+        },
+        "caller_confirmed": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "slot_id",
+        "caller_confirmed"
+      ],
+      "type": "object"
+    },
+    "speak_during_execution": true,
+    "speak_after_execution": true,
+    "timeout_ms": 15000,
+    "max_retry": 0,
+    "execution_message_description": "Briefly say you're arranging the selected visit. Do not say booked until the result."
+  },
+  {
+    "type": "custom",
+    "name": "escalate_concern",
+    "description": "Immediately save safety hazards or a human/team review request. No contact information required. Give safety guidance before waiting for a result.",
+    "url": "https://summit-api-production-80be.up.railway.app/tools/escalate_concern",
+    "method": "POST",
+    "args_at_root": false,
+    "parameters": {
+      "additionalProperties": false,
+      "properties": {
+        "reason": {
+          "maxLength": 1000,
+          "minLength": 1,
+          "type": "string"
+        },
+        "hazards": {
+          "items": {
+            "enum": [
+              "gas_smell",
+              "carbon_monoxide",
+              "smoke",
+              "fire",
+              "electrical_burning",
+              "sparking"
+            ],
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "safe_location": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "reason"
+      ],
+      "type": "object"
+    },
+    "speak_during_execution": false,
+    "speak_after_execution": true,
+    "timeout_ms": 15000,
+    "max_retry": 0
+  },
+  {
+    "type": "custom",
+    "name": "send_inquiry_email",
+    "description": "Send one acknowledgment for a saved quote inquiry or team message to the caller's confirmed email. Requires complete review contact details. Only email_status=accepted means sending was accepted; delivery is not verified. Do not retry unknown or submitting results.",
+    "url": "https://summit-api-production-80be.up.railway.app/tools/send_inquiry_email",
+    "method": "POST",
+    "args_at_root": false,
+    "parameters": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false
+    },
+    "speak_during_execution": false,
+    "speak_after_execution": true,
+    "timeout_ms": 15000,
+    "max_retry": 0
+  },
+  {
+    "type": "custom",
+    "name": "get_request",
+    "description": "Recover saved state and any booking after interruption, correction, restart, or uncertain tool outcome.",
+    "url": "https://summit-api-production-80be.up.railway.app/tools/get_request",
+    "method": "POST",
+    "args_at_root": false,
+    "parameters": {
+      "type": "object",
+      "properties": {},
+      "additionalProperties": false
+    },
+    "speak_during_execution": false,
+    "speak_after_execution": true,
+    "timeout_ms": 15000,
+    "max_retry": 0
+  },
+  {
+    "type": "end_call",
+    "name": "end_call",
+    "description": "End the call promptly after goodbye or when the caller needs to leave for safety."
+  }
+]

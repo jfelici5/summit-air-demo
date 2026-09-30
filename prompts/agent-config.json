@@ -1,0 +1,36 @@
+{
+  "agent_name": "Summit Air \u00b7 Service Coordinator",
+  "response_engine": {
+    "type": "retell-llm",
+    "llm_id": "llm_fc2d988f5a9361eab1f2d657741d"
+  },
+  "voice_id": "11labs-Adrian",
+  "voice_speed": 1.0,
+  "voice_temperature": 0.6,
+  "responsiveness": 0.8,
+  "interruption_sensitivity": 0.85,
+  "enable_backchannel": true,
+  "backchannel_frequency": 0.3,
+  "backchannel_words": [
+    "Mm-hmm",
+    "Got it"
+  ],
+  "enable_dynamic_responsiveness": true,
+  "reminder_trigger_ms": 12000,
+  "reminder_max_count": 1,
+  "end_call_after_silence_ms": 45000,
+  "max_call_duration_ms": 1200000,
+  "language": "en-US",
+  "denoising_mode": "noise-cancellation",
+  "webhook_url": "https://summit-api-production-80be.up.railway.app/webhooks/retell",
+  "webhook_events": [
+    "call_started",
+    "call_ended",
+    "call_analyzed"
+  ],
+  "data_storage_retention_days": 30,
+  "agent_id": "agent_74393cd118df598fd66ae4fed9",
+  "version": 12,
+  "llm_model": "gpt-5.6-terra",
+  "phone_number": "+19254337863"
+}
