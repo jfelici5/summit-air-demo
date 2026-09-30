@@ -1,0 +1,13 @@
+.env
+.env.*
+.git
+.venv
+__pycache__
+.pytest_cache
+.ruff_cache
+.tool-cache
+data
+tests
+scripts
+*.md
+!prompts/*.md

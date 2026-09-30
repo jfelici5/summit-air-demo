@@ -1,0 +1,10 @@
+# Verified deployment versions; update intentionally and rerun provider checks.
+fastapi==0.142.2
+uvicorn==0.54.0
+httpx==0.28.1
+SQLAlchemy==2.1.1
+psycopg[binary]==3.3.6
+pydantic-settings==2.15.0
+email-validator==2.3.0
+retell-sdk==5.66.1
+python-dotenv==1.2.3
