@@ -3,6 +3,7 @@
 AI phone agent for inbound residential and commercial HVAC calls
 
 **Live number: +1 (925) 433-7863**
+**Valid zipcodes: app/service_zipcodes.json**
 
 ## Architecture
 
