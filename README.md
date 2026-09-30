@@ -1,7 +1,6 @@
 # Summit Air phone agent
 
-AI phone agent for inbound residential and commercial HVAC calls, built for the
-Revin Forward Deployed Engineer assignment.
+AI phone agent for inbound residential and commercial HVAC calls
 
 **Live number: +1 (925) 433-7863**
 
@@ -44,27 +43,15 @@ availability and booking. Tool results determine what the agent can confirm.
 
 ## Call flow
 
-The normal booking flow is issue and immediate risk, visit intent when unclear,
-spelled name, service ZIP, address readback, callback confirmation, property
-category, scheduling authorization, affected systems, confirmed email, real
-openings, and booking consent. Already volunteered details are reused.
-
-Commercial visits additionally collect a secondary site type, business/site name,
-onsite contact and number, and access instructions. Floor, front desk, entrances,
-parking, building codes, and access hours share one free-text field. An onsite
-caller can reuse their confirmed contact details. Unknown preparation details
-do not add booking restrictions.
-
-The agent offers the earliest returned appointment window and asks whether it
-works or specific days are better. A preferred day triggers another search.
-After a successful booking it explains the $99 dispatch fee, additional costs
-reviewed before repairs, and confirmation-email management links, then asks
-whether anything else is needed.
+The normal booking flow is roughly modeled after the following steps:
+1. Identify the issue and assess immediate risk
+2. Gather information about the caller, verify whether their address is in scope (project spec mentioned three counties)
+3. Gather information about the property (residential or commercial, whether there are special access rules, etc) and affected systems
+4. Authorize scheduling, send confirmations to the users, and loop back asking if there is anything else that the agent can do
 
 Quote inquiries and team messages use a shorter path without booking. The
 caller's message and confirmed contact details are saved for team review; the
-configured Gmail sender can send an acknowledgment. Email is mandatory to
-complete a booking or follow-up request; partial requests remain saved.
+configured Gmail sender can send an acknowledgment. 
 
 ## State and booking integrity
 
@@ -101,35 +88,5 @@ The demo covers Nassau, Suffolk, and Queens counties in New York using 283 bundl
 ZIPs. Street details are caller supplied and confirmed by readback; street lookup
 is not a booking gate. [ZIP data](app/service_zipcodes.json) is attributed to
 [GeoNames](https://www.geonames.org/) under CC BY 4.0. Weather uses approximate ZIP
-coordinates as supporting context.
+coordinates as supporting context but can be overridden by whatever the user says
 
-The calendar uses America/New_York, Monday–Saturday service hours, two-hour
-windows, and a 60-minute minimum booking notice. It represents one demo service
-calendar; technician assignment, travel time, and forty-technician capacity are
-future integrations. SMS, payments, live transfers, and voice rescheduling are
-outside this implementation; Cal.com email links support appointment management.
-
-## Runtime configuration
-
-Python 3.12 and environment settings from [.env.example](.env.example) run the API:
-
-```sh
-python3.12 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-cp .env.example .env
-# Supply provider credentials and event configuration in .env.
-.venv/bin/python -m uvicorn app.main:app --reload
-```
-
-Local development uses SQLite. Railway runs the [Dockerfile](Dockerfile) with
-persistent Postgres and the [deployment configuration](railway.json).
-Production requires Retell and admin credentials and rejects SQLite.
-
-Retell calls the HTTPS tool endpoints with its designated Webhook signing key.
-The dispatch page loads caller records only through the admin-authenticated API.
-Cal.com uses a signed lifecycle webhook. Inquiry email uses the Apps Script sender
-with a shared token stored in script properties and backend configuration.
-Real secrets remain in local environment files and provider settings.
-
-Start reviewing with the agent prompt, then the call engine, triage rules, and
-provider adapters.
